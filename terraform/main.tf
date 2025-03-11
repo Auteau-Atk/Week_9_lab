@@ -12,7 +12,7 @@ provider "aws" {
 }
 
 locals {
-  project_name = "lab_week_9"
+  project_name = "change_name"
 }
 
 # Get the most recent version of your AMI created with Packer
