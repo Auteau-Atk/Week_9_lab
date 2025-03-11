@@ -14,7 +14,7 @@ packer {
 }
 
 source "amazon-ebs" "ubuntu" {
-  ami_name      = "web-nginx-aws"
+  ami_name      = "change_name"
   instance_type = "t2.micro"
   region        = "us-west-2"
 
