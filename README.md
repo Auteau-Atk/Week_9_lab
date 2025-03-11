@@ -1,5 +1,5 @@
 # Week_9_lab
-
+## Packer
 ```bash
 cd packer
 ```
@@ -16,7 +16,7 @@ packer validate ansible.pkr.hcl
 packer build anisble.pkr.hcl
 ```
 
-## When finished packer
+## Terraform
 
 ```bash
 cd terraform
