@@ -15,9 +15,6 @@ locals {
   project_name = "change_name"
 }
 
-# Get the most recent version of your AMI created with Packer
-# https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/ami
-
 data "aws_ami" "ubuntu" {
   most_recent = true
   owners      = ["self"]
